@@ -117,14 +117,20 @@ p{
     width: 100%;
     bottom: -15%;
     animation-name: big;
-    animation-duration: 4s;
+    animation-duration: 3s;
     animation-fill-mode: forwards;
 }
 @keyframes big {
     0%   {background-color:red;}
-    25%  {background-color:yellow;z-index: 0;}
+    10%  {background-color:yellow;z-index: 0;}
+    20%  {background-color:blue;z-index: 0;}
+    30%  {background-color:green;z-index: 0; }
+    40%  {background-color:yellow;z-index: 0;}
     50%  {background-color:blue;z-index: 0;}
-    75%  {background-color:green;z-index: 0; }
+    60%  {background-color:green;z-index: 0; }
+    70%  {background-color:yellow;z-index: 0;}
+    80%  {background-color:blue;z-index: 0;}
+    90%  {background-color:green;z-index: 0; }
     100% {background-color:red; opacity: 0%; z-index: -5; }
 }
 }
