@@ -117,7 +117,7 @@ p{
     width: 100%;
     bottom: -15%;
     animation-name: big;
-    animation-duration: 8s;
+    animation-duration: 4s;
     animation-fill-mode: forwards;
 }
 @keyframes big {
