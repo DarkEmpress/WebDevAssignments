@@ -16,6 +16,7 @@
         text-align: center;
         font-family: 'Times New Roman', Times, serif;
         margin-top: 10px;
+        text-shadow: 10px 10px 10px #000000;
     }
     .logo{
         display: inline-block;
@@ -33,14 +34,14 @@
     
 
 a {
-    color: #f90000;
+    color: #db0303;
     text-decoration: none;
-    text-shadow: 2px 5px #360d0d;
+    text-shadow: 10px 10px 10px #000000;
 }
 a:hover {
-    color:#ff0026; 
+    color: #db0303; 
     text-decoration:none;
-    text-shadow: 3px 3px #000000; 
+    text-shadow: 10px 10px 10px #000000;
     cursor:pointer;  
 }
 .main{
@@ -87,7 +88,7 @@ h2{
     margin: 20px;
 }
 table, th, td {
-    border: none;
+    border: 4px solid rgb(70, 0, 0);
     border-collapse: collapse;
   }
 th{
@@ -115,22 +116,16 @@ p{
 .tada{
     position: fixed;
     width: 100%;
-    bottom: -15%;
+    top: 0%;
     animation-name: big;
     animation-duration: 3s;
     animation-fill-mode: forwards;
 }
 @keyframes big {
-    0%   {background-color:red;}
-    10%  {background-color:yellow;z-index: 0;}
-    20%  {background-color:blue;z-index: 0;}
-    30%  {background-color:green;z-index: 0; }
-    40%  {background-color:yellow;z-index: 0;}
-    50%  {background-color:blue;z-index: 0;}
-    60%  {background-color:green;z-index: 0; }
-    70%  {background-color:yellow;z-index: 0;}
-    80%  {background-color:blue;z-index: 0;}
-    90%  {background-color:green;z-index: 0; }
-    100% {background-color:red; opacity: 0%; z-index: -5; }
+    0%   {background-color:rgb(255, 255, 255);}
+    25%  {background-color:rgb(254, 254, 254);z-index: 0;}
+    50%  {background-color:rgb(255, 255, 255);z-index: 0;}
+    75%  {background-color:rgb(255, 255, 255);z-index: 0; }
+    100% {background-color:rgb(255, 255, 255); opacity: 0%; z-index: -5; }
 }
 }
